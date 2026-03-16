@@ -1,6 +1,0 @@
-# Se creeaza un UI decent pentru a invata cuvinte din limba dorita
-# Am creeat cu CHAT GPT niste fisiere csv care include cuvinte in limba engleza si romana pentru 3 niveluri
-# Programul ia pe rand fiecare cuvant de la nivelul de inceput iar daca se apasa bifa, cuvantul e dat afara din acel csv,intrucat nu se va mai repeta, iar daca apesi pe X cuvantul se pune la coada din nou si va fi din nou intalnit
-# Astfel poti invata cuvinte , iar odata ce lista de cuvinte de la nivelul 1 este goala se trece la nivelul 2, in care cuvintele sunt mai grele
-# Cand s-au terminat toate cuvintele se inchide programul, cu un mesaj de felicitare ca ai invatat cuvintele
-# In cazul in care renunti la un anumit nivel, si nu l-ai terminat, ti se creaza un fisier csv cu cuvinte care necesita practica ( invatare )
