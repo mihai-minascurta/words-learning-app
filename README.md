@@ -66,7 +66,7 @@ Words learning app/
 * **Logic Decoupling:** Effectively separating the "flip" timer from the "change card" mechanism.
 * **File Resilience:** Proactive error handling ensures the app doesn't crash if a level dataset is missing.
 
-**🔧 Technical Debt (For Interview Awareness):**
+**🔧 Technical Debt:**
 * **Relative Paths:** Currently uses absolute paths; refactoring to `os.path` would make the code cross-platform compatible.
 * **OOP Transition:** The code is functional but procedural. Moving to a class-based structure would enhance modularity.
 
