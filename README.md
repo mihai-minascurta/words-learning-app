@@ -9,7 +9,7 @@
   &nbsp;&nbsp;
   <img src="https://img.shields.io/badge/Pandas-FE428E?style=for-the-badge&logo=pandas&logoColor=white" height="35">
   &nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/Tkinter-FE428E?style=for-the-badge&logo=python&logoColor=white" height="35">
+  <img src="https://img.shields.io/badge/Tkinter-A9FEF7?style=for-the-badge&logo=python&logoColor=black" height="35">
 </div>
 
 <br>
@@ -19,13 +19,13 @@
   <img src="https://placehold.co/1000x2/C3B550/C3B550.png" width="100%" height="2" alt="Yellow Divider"/>
 </h3>
 
-A dynamic, interactive Desktop GUI application built to accelerate language learning through the active recall method. The app uses a smart flashcard system that automatically saves your progress and scales the difficulty as you master new words.
+A professional language-learning desktop application designed to facilitate active recall. The program displays a randomized word from a CSV database, provides a 3-second delay for the user to guess, and then flips the card to reveal the translation. 
 
-**Key Features:**
-* **⏳ Auto-Flip Mechanism:** Cards automatically flip from Romanian to English after a 3-second delay using Tkinter's `.after()` loop.
-* **💾 State Management:** Known words are removed from the queue, and progress is dynamically saved to a `words_to_learn.csv` file. You never study the same mastered word twice!
-* **📈 Auto-Leveling System:** Seamlessly transitions the user to Level 2 and Level 3 datasets once the current vocabulary pool is exhausted.
-* **🎨 Custom UI:** Built with Tkinter Canvas for a sleek, borderless, and image-driven user experience.
+**Technical Logic (Verified):**
+* **⏳ Event-Driven Timer:** Uses `window.after()` to synchronize the UI "flip" animation with the data state, ensuring a seamless user experience.
+* **💾 Data Persistence:** Implements a feedback loop where known words are removed from the dictionary and the remaining "to-learn" list is exported back to CSV.
+* **📈 Dynamic Leveling:** Features a sequential file-loading system that transitions from Level 1 to Level 3 datasets using robust `try/except` blocks.
+* **🖼️ Canvas Layering:** Leverages the Tkinter `Canvas` widget to dynamically update text properties (font, color, content) over graphical image assets.
 
 <br>
 
@@ -36,17 +36,10 @@ A dynamic, interactive Desktop GUI application built to accelerate language lear
 
 ```text
 Words learning app/
-├── main.py                     # Main application script & UI logic
-├── words_to_learn.csv          # Dynamically generated state file
-├── data/                       # Vocabulary datasets
-│   ├── romanian_words.csv      # Level 1 words
-│   ├── romanian_words_lvl2.csv # Level 2 words
-│   └── romanian_words_lvl3.csv # Level 3 words
-└── images/                     # UI Assets
-    ├── card_front.png          
-    ├── card_back.png           
-    ├── right.png               
-    └── wrong.png
+├── main.py                     # Execution logic & UI Event Loop
+├── words_to_learn.csv          # Local storage for mastered vocabulary
+├── data/                       # Dataset directory (Lvl 1, 2, 3)
+└── images/                     # UI Assets (Card fronts/backs & buttons)
 ```
 
 <h3>
@@ -55,29 +48,30 @@ Words learning app/
 </h3>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/OVERALL_DIFFICULTY-INTERMEDIATE-FE428E?style=for-the-badge&logoColor=white" height="35">
+  <img src="https://img.shields.io/badge/OVERALL_DIFFICULTY-BEGINNER_/_INTERMEDIATE-FE428E?style=for-the-badge&logoColor=white" height="35">
 </div>
 
 <br>
 
 > **📊 SYSTEM COMPLEXITY RADAR**
 >
-> 🟩🟩🟩🟩🟩🟩🟩🟩⬛⬛ **80%** | **Data Integration (Pandas)**<br>
-> 🟨🟨🟨🟨🟨🟨🟨⬛⬛⬛ **70%** | **Canvas UI (Tkinter)**<br>
-> 🟦🟦🟦🟦🟦🟦🟦🟦🟦⬛ **90%** | **State Logic & Auto-Leveling**<br>
-> 🟪🟪🟪🟪🟪⬛⬛⬛⬛⬛ **50%** | **Path Architecture** *(Refactor needed)*
+> 🟩🟩🟩🟩🟩🟩🟩🟩⬛⬛ **80%** | **Data Structuring (Pandas Dicts)**<br>
+> 🟨🟨🟨🟨🟨🟨🟨⬛⬛⬛ **70%** | **UI Event Handling (Tkinter)**<br>
+> 🟦🟦🟦🟦🟦🟦🟦🟦⬛⬛ **80%** | **Hot-Swapping Datasets**<br>
+> 🟪🟪🟪🟪🟪⬛⬛⬛⬛⬛ **50%** | **Path Architecture**
 
 <br>
 
 **🟢 High-Impact Wins:**
-* **Data Mastery:** Smart use of Pandas for rapid CSV processing.
-* **UX Flow:** Tkinter `.after()` mechanism implements auto-flip flawlessly.
+* **Logic Decoupling:** Effectively separating the "flip" timer from the "change card" mechanism.
+* **File Resilience:** Proactive error handling ensures the app doesn't crash if a level dataset is missing.
 
-**🔧 Key Recommendations:**
-* **Paths:** Shift from absolute to relative file paths.
-* **Architecture:** Transition global state to an OO `class` structure.
+**🔧 Technical Debt (For Interview Awareness):**
+* **Relative Paths:** Currently uses absolute paths; refactoring to `os.path` would make the code cross-platform compatible.
+* **OOP Transition:** The code is functional but procedural. Moving to a class-based structure would enhance modularity.
 
 <br>
+
 
 <div align="center">
   <img src="https://placehold.co/1000x3/FE428E/FE428E.png" width="100%" height="3" alt="Pink Divider"/>
