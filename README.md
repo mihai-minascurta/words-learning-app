@@ -1,22 +1,22 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=26&pause=1000&color=FE428E&center=true&vCenter=true&width=600&lines=%F0%9F%93%9A+Vocabulary+Flashcard+App;%E2%9A%A1+Interactive+Learning;%F0%9F%90%8D+Powered+by+Python+%26+Tkinter" alt="Animated Header" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=26&pause=1000&color=39FF14&center=true&vCenter=true&width=600&lines=%F0%9F%93%9A+Vocabulary+Flashcard+App;%E2%9A%A1+Interactive+Learning;%F0%9F%90%8D+Powered+by+Python+%26+Tkinter" alt="Animated Header" />
 </div>
 
 <br>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Python-FE428E?style=for-the-badge&logo=python&logoColor=white" height="35">
+  <img src="https://img.shields.io/badge/Python-2F2F2F?style=for-the-badge&logo=python&logoColor=white" height="35">
   &nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/Pandas-FE428E?style=for-the-badge&logo=pandas&logoColor=white" height="35">
+  <img src="https://img.shields.io/badge/Pandas-2F2F2F?style=for-the-badge&logo=pandas&logoColor=white" height="35">
   &nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/Tkinter-A9FEF7?style=for-the-badge&logo=python&logoColor=black" height="35">
+  <img src="https://img.shields.io/badge/Tkinter-2F2F2F?style=for-the-badge&logo=python&logoColor=white" height="35">
 </div>
 
 <br>
 
 <h3>
-  🚀 Project Overview<br>
-  <img src="https://placehold.co/1000x2/C3B550/C3B550.png" width="100%" height="2" alt="Yellow Divider"/>
+  <span style="color: #39FF14;">🚀 Project Overview</span><br>
+  <img src="https://placehold.co/1000x2/39FF14/39FF14.png" width="100%" height="2" alt="Green Divider"/>
 </h3>
 
 A professional language-learning desktop application designed to facilitate active recall. The program displays a randomized word from a CSV database, provides a 3-second delay for the user to guess, and then flips the card to reveal the translation. 
@@ -30,8 +30,8 @@ A professional language-learning desktop application designed to facilitate acti
 <br>
 
 <h3>
-  📁 Project Structure<br>
-  <img src="https://placehold.co/1000x2/C3B550/C3B550.png" width="100%" height="2" alt="Yellow Divider"/>
+  <span style="color: #00E5FF;">📁 Project Structure</span><br>
+  <img src="https://placehold.co/1000x2/00E5FF/00E5FF.png" width="100%" height="2" alt="Cyan Divider"/>
 </h3>
 
 ```text
@@ -41,24 +41,41 @@ Words learning app/
 ├── data/                       # Dataset directory (Lvl 1, 2, 3)
 └── images/                     # UI Assets (Card fronts/backs & buttons)
 ```
-
 <h3>
-  🧠 Code Review & Complexity<br>
-  <img src="https://placehold.co/1000x2/C3B550/C3B550.png" width="100%" height="2" alt="Yellow Divider"/>
+  <span style="color: #BC13FE;">🧠 Code Review & Complexity</span><br>
+  <img src="https://placehold.co/1000x2/BC13FE/BC13FE.png" width="100%" height="2" alt="Purple Divider"/>
 </h3>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/OVERALL_DIFFICULTY-BEGINNER_/_INTERMEDIATE-FE428E?style=for-the-badge&logoColor=white" height="35">
+  <img src="https://img.shields.io/badge/OVERALL_DIFFICULTY-BEGINNER_/_INTERMEDIATE-2F2F2F?style=for-the-badge&logoColor=39FF14" height="35">
 </div>
 
 <br>
 
-> **📊 SYSTEM COMPLEXITY RADAR**
->
-> 🟩🟩🟩🟩🟩🟩🟩🟩⬛⬛ **80%** | **Data Structuring (Pandas Dicts)**<br>
-> 🟨🟨🟨🟨🟨🟨🟨⬛⬛⬛ **70%** | **UI Event Handling (Tkinter)**<br>
-> 🟦🟦🟦🟦🟦🟦🟦🟦⬛⬛ **80%** | **Hot-Swapping Datasets**<br>
-> 🟪🟪🟪🟪🟪⬛⬛⬛⬛⬛ **50%** | **Path Architecture**
+> <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=18&pause=1000&color=39FF14&vCenter=true&width=400&lines=>_ANALYZING_SYSTEM_COMPLEXITY..." alt="Animated Loading" />
+> 
+> <table>
+>   <tr>
+>     <td width="260"><b><span style="color: #39FF14;">Data Structuring (Pandas)</span></b></td>
+>     <td width="200"><img src="https://placehold.co/160x10/39FF14/39FF14.png"/><img src="https://placehold.co/40x10/2F2F2F/2F2F2F.png"/></td>
+>     <td width="50"><b><span style="color: #39FF14;">80%</span></b></td>
+>   </tr>
+>   <tr>
+>     <td width="260"><b><span style="color: #00E5FF;">UI Event Handling (Tkinter)</span></b></td>
+>     <td width="200"><img src="https://placehold.co/140x10/00E5FF/00E5FF.png"/><img src="https://placehold.co/60x10/2F2F2F/2F2F2F.png"/></td>
+>     <td width="50"><b><span style="color: #00E5FF;">70%</span></b></td>
+>   </tr>
+>   <tr>
+>     <td width="260"><b><span style="color: #BC13FE;">Hot-Swapping Datasets</span></b></td>
+>     <td width="200"><img src="https://placehold.co/160x10/BC13FE/BC13FE.png"/><img src="https://placehold.co/40x10/2F2F2F/2F2F2F.png"/></td>
+>     <td width="50"><b><span style="color: #BC13FE;">80%</span></b></td>
+>   </tr>
+>   <tr>
+>     <td width="260"><b><span style="color: #39FF14;">Path Architecture</span></b></td>
+>     <td width="200"><img src="https://placehold.co/100x10/39FF14/39FF14.png"/><img src="https://placehold.co/100x10/2F2F2F/2F2F2F.png"/></td>
+>     <td width="50"><b><span style="color: #39FF14;">50%</span></b></td>
+>   </tr>
+> </table>
 
 <br>
 
@@ -72,7 +89,6 @@ Words learning app/
 
 <br>
 
-
 <div align="center">
-  <img src="https://placehold.co/1000x3/FE428E/FE428E.png" width="100%" height="3" alt="Pink Divider"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=16&duration=3000&pause=1000&color=00E5FF&center=true&vCenter=true&width=500&lines=[SYSTEM_SCAN_COMPLETE]----------------------------" alt="Animated Scan Divider" />
 </div>
