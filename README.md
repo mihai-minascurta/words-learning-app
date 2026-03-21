@@ -5,11 +5,11 @@
 <br>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Python-2F2F2F?style=for-the-badge&logo=python&logoColor=white" height="35">
+  <img src="https://img.shields.io/badge/Python-FE428E?style=for-the-badge&logo=python&logoColor=white" height="35">
   &nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/Pandas-2F2F2F?style=for-the-badge&logo=pandas&logoColor=white" height="35">
+  <img src="https://img.shields.io/badge/Pandas-FE428E?style=for-the-badge&logo=pandas&logoColor=white" height="35">
   &nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/Tkinter-2F2F2F?style=for-the-badge&logo=python&logoColor=white" height="35">
+  <img src="https://img.shields.io/badge/Tkinter-A9FEF7?style=for-the-badge&logo=python&logoColor=black" height="35">
 </div>
 
 <br>
@@ -47,7 +47,7 @@ Words learning app/
 </h3>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/OVERALL_DIFFICULTY-BEGINNER_/_INTERMEDIATE-2F2F2F?style=for-the-badge&logoColor=39FF14" height="35">
+  <img src="https://img.shields.io/badge/OVERALL_DIFFICULTY-BEGINNER_/_INTERMEDIATE-FE428E?style=for-the-badge&logoColor=white" height="35">
 </div>
 
 <br>
